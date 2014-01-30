@@ -5,6 +5,7 @@ time = Time.new
 #@TODO
 #check if directory exists.
 #loop through directory and back up to new directory
+#link up with restcloud
 saveDir ='backup/' +time.yday.to_s()+time.year.to_s()
 
 FileUtils.copy_entry my_dir, saveDir
